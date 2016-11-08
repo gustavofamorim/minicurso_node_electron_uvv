@@ -1,0 +1,77 @@
+body,html{
+	height:100%;
+	width:100%;
+	margin:0px;
+	font-size:14x;
+}
+
+:focus {
+	border-color: none;
+}
+
+div.container {
+	width:100%;
+	height:100%;
+}
+
+div.col-left {
+	width: 50%;
+	height:100%;
+	float:left;
+}
+
+div.col-center {
+	width:10px;
+	height:100%;
+	float:left;
+	background-color: #061B2F;
+}
+
+div.col-right {
+	width: 50%;
+	height:100%;
+	float:left;
+}
+
+webview{
+	width: 100%;
+	height: 100%;
+}
+
+div.numberedtextarea-wrapper {
+	position: relative;
+	width:100%;
+	height:100%;
+	padding-right: 0px;
+}
+
+div.numberedtextarea-wrapper textarea {
+	display: block;
+	-webkit-box-sizing: border-box;
+	background:#34495E;
+	color:#fff;
+	padding:5px;
+	width:100%;
+	resize: none;
+}
+
+div.numberedtextarea-wrapper textarea, pre {
+	tab-size:4;
+}
+
+div.numberedtextarea-line-numbers {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 50px;
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	color: rgba(255, 255, 255, 0.5);
+	overflow: hidden;
+}
+
+div.numberedtextarea-number {
+	padding-right: 6px;
+	text-align: right;
+}
